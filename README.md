@@ -18,3 +18,17 @@ The main objective of this project is to predict employee leaving using a datase
 4. **Model Optimization**: The models are optimized using techniques like cross-validation and Optuna for hyperparameter tuning.
 5. **Meta-Modeling**: A final model is created using a meta-learning approach to combine predictions from individual models and improve overall performance.
 6. **Performance Evaluation** F1-scores and ROC AUC are used to evaluate model performance on the test data.
+
+### About Dataset
+
+| Field | Description | DataType |
+|----------|----------|----------|
+| Education | The highest level of formal education obtained by the employee | String |
+| JoiningYear | Year of joining the company | Integer |
+| City | 	Job location | String |
+| PaymentTier | Payment Tier (1-3). 3 means better pay. | Integer |
+| Age | Age of an employee | Integer |
+| Gender | Gender of an employee | String |
+| EverBenched | Was an employee ever benched or not | String |
+| ExperienceInCurrentDomain | Work experience in the current company | Integer |
+| LeaveOrNot	 | Weather the employee left the company | Integer |
