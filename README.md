@@ -32,3 +32,9 @@ The main objective of this project is to predict employee leaving using a datase
 | EverBenched | Was an employee ever benched or not | String |
 | ExperienceInCurrentDomain | Work experience in the current company | Integer |
 | LeaveOrNot	 | Weather the employee left the company | Integer |
+
+### Generating Predictions
+
+To generate predictions using the trained model, you can use the generate_prediction function.
+
+his function accepts X_test.csv as input, preprocesses it, and outputs the corresponding predictions.
